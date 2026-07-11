@@ -12,7 +12,6 @@ numbers = [0, 1, 7, 2, 4, 8]
 num_lst = len(numbers)
 sum_num = 0
 for i in range(0, num_lst, 2):
-    all_num = numbers[i]
     sum_num += numbers[i]
 if num_lst > 0:
     print(sum_num * numbers[-1])
