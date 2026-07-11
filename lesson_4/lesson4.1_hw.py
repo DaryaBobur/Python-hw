@@ -11,8 +11,8 @@
 # Answer
 num_list = [0, 1, 0, 12, 3]
 
-for l in num_list:
-    if l == 0:
+for i in num_list:
+    if i == 0:
         num_list.remove(0)
         num_list.append(0)
 print(num_list)
