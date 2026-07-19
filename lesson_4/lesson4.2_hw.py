@@ -8,13 +8,19 @@
 # [6] => 36
 # [] => 0
 
-numbers = [0, 1, 7, 2, 4, 8]
-num_lst = len(numbers)
-sum_num = 0
-for i in range(0, num_lst, 2):
-    sum_num += numbers[i]
-if num_lst > 0:
-    print(sum_num * numbers[-1])
-else:
-    print(num_lst)
+# numbers = [0, 1, 7, 2, 4, 8]
+# num_lst = len(numbers)
+# sum_num = 0
+# for i in range(0, num_lst, 2):
+#     sum_num += numbers[i]
+# if num_lst > 0:
+#     print(sum_num * numbers[-1])
+# else:
+#     print(num_lst)
 
+number = 0
+while number <= 10:
+    number = number + 2
+    if number == 5:
+        break
+    print(number)
