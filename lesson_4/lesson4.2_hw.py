@@ -17,10 +17,3 @@
 #     print(sum_num * numbers[-1])
 # else:
 #     print(num_lst)
-
-number = 0
-while number <= 10:
-    number = number + 2
-    if number == 5:
-        break
-    print(number)
