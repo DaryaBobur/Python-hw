@@ -9,9 +9,9 @@
 
 #Answer
 import string
+
 user_letters = input("Enter two letters separated by a hyphen: ")
 all_letters = string.ascii_letters
-
 
 for _ in user_letters:
     if len(user_letters) == 3 and user_letters[0].isalpha() and "-" in user_letters[1] and user_letters[2].isalpha():
@@ -20,7 +20,7 @@ for _ in user_letters:
         result = all_letters[first_num:second_num + 1]
         print(result)
     else:
-        print("Error")
+        print("Incorrect data!")
 
 
 
