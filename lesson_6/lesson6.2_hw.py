@@ -24,8 +24,8 @@
 user_num = int(input("Enter your number from 0 to 8640000: "))
 
 days_num = user_num // (24 * 60 * 60)
-hours =  (user_num - (24 * 60 * 60)*days_num) // (60 * 60)
-minutes = ((user_num - (24 * 60 * 60)* days_num) % (60 * 60) - hours) // 60
+hours =  (user_num - (24 * 60 * 60) * days_num) // (60 * 60)
+minutes = ((user_num - (24 * 60 * 60) * days_num) % (60 * 60) - hours) // 60
 _, seconds = divmod(user_num, 60)
 
 hours_num = str(hours).zfill(2)
