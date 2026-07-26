@@ -12,6 +12,7 @@ def is_palindrome(text):
     for i in correct_text:
         if i not in string.punctuation:
             new_text += i
+
     result = new_text[::-1]
 
     if new_text == result:
