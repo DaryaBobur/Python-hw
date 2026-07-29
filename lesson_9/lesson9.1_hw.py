@@ -20,8 +20,8 @@ def popular_words(text, words):
         correct_words = i.lower()
         number.append(count_words)
         new_words.append(correct_words)
-
         print(dict(zip(new_words, number)))
+
     return dict(zip(new_words, number))
 
 
