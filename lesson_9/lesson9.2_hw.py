@@ -8,7 +8,7 @@
 
 # Answer
 
-def difference(*args):
+def difference(*args) -> int|float:
     number_list = []
 
     if len(args) == 0:
