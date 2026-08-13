@@ -18,7 +18,7 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
            html = file.read()
 
       for _ in html:
-          text = re.findall(r"<[^>]+>(.*?)</[^>]+>", html)
+          text = re.findall(r"<[^>]+>(.+?)</[^>]+>", html)
           if len(text) > 0:
              new_text = "\n".join(text)
              with codecs.open(result_file, 'w', 'utf-8') as file:
