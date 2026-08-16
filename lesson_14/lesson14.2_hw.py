@@ -27,13 +27,10 @@ class Counter:
    def set_max(self, max_max):
        self.max_value = max_max
 
-
    def set_min(self, min_min):
        self.min_value = min_min
 
-
    def step_up(self):
-
        if self.current + 1 > self.max_value:
            raise ValueError("Reach the maximum value of the counter!")
        self.current += 1
