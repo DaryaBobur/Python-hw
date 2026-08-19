@@ -29,7 +29,7 @@ class Group:
         self.__group = set()
 
     def add_student(self, student):
-        if len(self.__group) >= 10:
+        if len(self.__group) > 10:
             raise ValueError("There can be only 10 students in the group.")
         else:
             self.__group.add(student)
